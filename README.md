@@ -12,6 +12,8 @@ Google Gemini AI model w/speech recognition and voice.
 # Obtain API Key
 [HERE](https://makersuite.google.com/app/apikey)
 
+<br>
+
 # Setup: Linux/MAC
 ### Add API Environment Variable `GOOGLE_GEMINI_API_KEY` [HERE](https://www.youtube.com/watch?v=5BTnfpIq5mI)
 ### Install ffmpeg [HERE](https://www.hostinger.com/tutorials/how-to-install-ffmpeg)
@@ -21,22 +23,28 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
+<br>
+
 # Setup: Windows
-### Add API Environment Variable `GOOGLE_GEMINI_API_KEY`
+## Add API Environment Variable `GOOGLE_GEMINI_API_KEY`
 ```bash
 export GOOGLE_GEMINI_API_KEY="<YOUR_GOOGLE_GEMINI_API_KEY>"
 ```
-### Install ffmpeg [HERE](https://www.hostinger.com/tutorials/how-to-install-ffmpeg)
+## Install ffmpeg [HERE](https://www.hostinger.com/tutorials/how-to-install-ffmpeg)
 ```bash
 python3 -m venv venv
 source venv/bin/active
 pip install -r requirements.txt
 ```
 
+<br>
+
 # Usage: 
 ```bash
 python gemini.py
 ```
+
+<br>
 
 # `gemini.py`
 ```python
@@ -71,5 +79,5 @@ while True:
 
 <br>
 
-## License
+# License
 [MIT](https://raw.githubusercontent.com/mytechnotalent/Gemini/main/LICENSE)
